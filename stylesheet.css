@@ -5,9 +5,9 @@
     background-color:rgb(202, 104, 113);
     font-size: 50px;
      Width:20%;
-     position: fixed;
-    height: 50%;
-    overflow: auto;
+     position: fixed;  
+    height: 47%;
+    overflow: auto; 
 }
 li a {
     display: block;
@@ -52,5 +52,73 @@ body{
 }
 .spon{
     text-align: center;
-    width: 400px;
+    float: right;
+    display: block;
+    width:100%;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: rgb(160, 53, 62);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(160, 53, 62) ;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px ;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:rgb(160, 53, 255)}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: rgb(160, 53, 62);
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    position: absolute;
+  right: 0%;
+  bottom: 10;
+  left: 0;
+  text-align: center;
+  display: block;
+  background-color:	#6495ED;
+    font-size: 25px;
+    color:#7FFFD4;
+}
+#ul{
+ list-style-type:none;
+}
+#divi{
+    display: block;
+    width:100%;
 }
